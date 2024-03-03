@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+}
+.div_1{
+    padding: 15px;
+    display:flex;
+    font-family:sans-serif;
+    height: 80px;
+    .div1{
+        display: flex;
+        img{
+            width:50;
+            height: 70px;
+        }
+        p{
+            font-weight: bold;
+            margin-top:20px;
+            font-size: 30px;
+        }
+    }
+    .div2{
+        margin-left: 20%;
+    }
+    .div3{
+        margin-left:10%
+    }
+    ul {
+        list-style-type: none;
+        margin-top: 15px;
+        padding: 0;
+        overflow: hidden;
+        li {
+            float: left;
+            a {
+                display: block;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.div_2{
+    position: relative;
+    img{
+        width: 100%;
+        height:500px;
+        object-fit: cover;
+        margin:0;
+    }
+    .div1{
+        position: absolute;
+        width: 550px;
+        height: 350px;
+        top:15%;
+        margin-left: 50%;
+        background-color: rgb(251, 220, 182);
+        div{
+            position: absolute;
+            margin:20px;
+            width: 450px;
+            height: 200px;
+            .p1{
+                font-family: 'Courier New', Courier, monospace;
+                letter-spacing: 2px;
+                font-weight: bold;
+                position: absolute;
+                margin-top: 10%;
+            }
+            .p2{
+                font-size: 50px;
+                margin-top: 15%;
+                font-weight: bold;
+                position: absolute;
+                color: darkgoldenrod;
+                font-family:sans-serif;
+            }
+            .p3{
+                margin-top:40%;
+                position: absolute;
+            }
+            button{
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+                margin-top:55%;
+                position: absolute;
+                height: 50px;
+                width: 200px;
+                background-color: darkgoldenrod;
+                border: none;
+            }
+            button:hover{
+                background-color: white;
+                border: 1px solid darkgoldenrod;
+                a{
+                    color: darkgoldenrod;
+                }
+            }
+        }
+    }
+
+}
+.div_3{
+    height:100px;
+    line-height: 2px;
+    font-family:sans-serif;
+    position: relative;
+    .p1{
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        bottom: 35%;
+        left: 43%;
+    }
+    .p2{
+        position: absolute;
+        bottom: 20%;
+        left: 35%;
+    }
+}
+.div_4{
+    display: flex;
+    padding-left:50px;
+    padding-right: 50px;
+    .block{
+        padding-left: 10px;
+        padding-right: 10px;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+        p{
+            font-weight: bold;
+            text-align: center;
+        }
+        div{
+            display: block;
+        }
+    }
+}
+.div_5{
+    padding:10px;
+    position: relative;
+    h2{
+        text-align: center;
+    font-family: sans-serif;
+    }
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    .line{
+        align-items: center;
+        display: flex;
+        height:450px;
+        padding-left: 80px;
+        position: relative;
+        padding-right: 80px;
+        div{
+            background-color: rgba(234, 232, 232, 0.731);
+            margin:10px;
+            display: block;
+            height: 400px;
+            position: relative;
+            p{
+                margin: 10px;
+            }
+            img{
+                object-fit: cover;
+                height: 65%;
+                width:280px;
+                position: relative;
+            }
+            .sale{
+                right:0;
+                width: 50px;
+                height:50px;
+                position: absolute;
+                top:0;
+                border-radius: 100%;
+                background: #E97171;
+                p{
+                    margin-left: 15%;
+                    margin-top:30%;
+                    color: white;
+                }
+            }
+            .new{
+                right:0;
+                width: 50px;
+                height:50px;
+                position: absolute;
+                top:0;
+                border-radius: 100%;
+                background: #2EC1AC;
+                p{
+                    margin-left: 15%;
+                    margin-top:30%;
+                    color: white;
+                }
+            }
+            .p1{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .p2{
+                font-family: 'Courier New', Courier, monospace;
+                color: gray;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .p3{
+                font-size: 20px;
+                font-weight: bold;
+                text-decoration: none;
+                color: black;
+                span{
+                    color: gray;
+                    font-size: 15px;
+                    text-decoration: line-through;
+                    font-weight: 100;
+                }
+            }
+        }
+        div:hover{
+            filter: opacity(50%);
+            
+        }
+    }
+    button{
+        border: 1px solid darkgoldenrod;
+        width: 250px;
+        height: 50px;
+        font-family: sans-serif;
+        font-size: 15px;
+        background-color: white;
+        margin-left: 40%;
+        position: relative;
+        a{
+            color: darkgoldenrod;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+    button:hover{
+        background-color: darkgoldenrod;
+        a{
+            color: white;
+        }
+    }
+
+}
