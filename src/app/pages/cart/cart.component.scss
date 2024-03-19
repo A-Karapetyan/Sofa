@@ -22,7 +22,12 @@ body{
         margin-left: 20%;
     }
     .help-navigator{
-        margin-left:10%
+        margin-left:10%;
+        ul{
+            li{
+                margin: 10px;
+            }
+        }
     }
     ul {
         list-style-type: none;
@@ -125,7 +130,8 @@ body{
     }
     .cart_total{
         margin:0px 10px;
-        width:35%;
+        width:40%;
+        height: 80%;
         background-color: #fff1c4;
         font-family: 'Courier New', Courier, monospace;
         h2{
@@ -147,7 +153,7 @@ body{
             border:1px solid black;
             border-radius: 10px;
             background-color: #fff1c4;
-            margin-top:18%;
+            margin-top:10%;
             margin-left:20%;
             padding:10px 15px;
             font-size: 20px;
@@ -262,6 +268,10 @@ body{
             a{
                 text-decoration: none;
             }
+        }
+        li:hover{
+            background-color: rgb(209, 205, 205);
+            color:white;  
         }
     }
     .right_bar{

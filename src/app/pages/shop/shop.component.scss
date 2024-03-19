@@ -22,7 +22,12 @@ body{
         margin-left: 20%;
     }
     .help-navigator{
-        margin-left:10%
+        margin-left:10%;
+        ul{
+            li{
+                margin: 10px;
+            }
+        }
     }
     ul {
         list-style-type: none;
@@ -79,6 +84,46 @@ body{
 }
 
 .filter_bar{
+    margin-bottom: 30px;
+    background-color: #fff1c4;
+    position: relative;
+    height: 50px;
+    display:flex;
+    padding:0px 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    img{
+
+        width:20px;
+        height: 20px;
+        margin:15px;
+        
+    }
+    span{
+        margin:15px;
+        font-size: 18px;
+    }
+    hr{
+        position: relative;
+        margin:10px;
+        margin-left: 15px;
+    }
+    p{
+        margin-left: 10px;
+        
+    }
+    div{
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+        margin-top: 15px;
+        input{
+            border: none;
+            height: 20px;
+        }
+        .input1{
+            width:20px;
+        }
+    }
     
 }
 
@@ -318,6 +363,10 @@ body{
             a{
                 text-decoration: none;
             }
+        }
+        li:hover{
+            background-color: rgb(209, 205, 205);
+            color:white;  
         }
     }
     .right_bar{

@@ -22,7 +22,12 @@ body{
         margin-left: 20%;
     }
     .help-navigator{
-        margin-left:10%
+        margin-left:10%;
+        ul{
+            li{
+                margin: 10px;
+            }
+        }
     }
     ul {
         list-style-type: none;
@@ -132,7 +137,6 @@ body{
         }
     }
     .right_side{
-
         width:50%;
         margin:5%;
         padding:5px;
@@ -167,7 +171,46 @@ body{
                 }
             }
         }
-        
+        .bank_transfer{
+            position: relative;
+            display: flex;
+            margin:10px 0px;
+            img{
+                width:10px;
+                height:10px;
+                margin:5px;
+            }
+            p,span{
+                position: relative;
+                margin:0;
+            }
+            p{
+                color: gray;
+            }
+        }
+        .p1,.p2{
+            margin-top:5px;
+            font-size: 18px;
+            span{
+                font-weight: bold;
+            }
+        }
+        .p1{
+            color: gray;
+        }
+        button{
+            width: 200px;
+            border-radius: 10px;
+            padding:10px 30px;
+            margin-left: 30%;
+            background-color: white;
+            border:1px solid black;
+        }
+        button:hover{
+            border:none;
+            background-color: darkgoldenrod;
+            color: white;
+        }
     }
 
 }
@@ -264,6 +307,10 @@ body{
             a{
                 text-decoration: none;
             }
+        }
+        li:hover{
+            background-color: rgb(209, 205, 205);
+            color:white;  
         }
     }
     .right_bar{
