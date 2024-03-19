@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { ItemComponent } from '../../item/item.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-checkout',
   standalone: true,
   imports: [ItemComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  templateUrl: './checkout.component.html',
+  styleUrl: './checkout.component.scss'
 })
-export class HomeComponent {
+export class CheckoutComponent {
 
 }
